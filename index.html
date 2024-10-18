@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNerd PC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Example of custom styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #bar {
+            background-color: #f4f4f4;
+            padding: 10px;
+            position: sticky; /* Makes the navbar sticky */
+            top: 0; /* Sticks to the top */
+            z-index: 1000; /* Ensures it stays above other content */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .links a:hover {
+            color: #007BFF;
+        }
+
+        .home-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 15px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to TechNerd World</h1>
+
+    <ul class="Menu">
+        <li class="links"><a href="#Welcome">Home</a></li>
+        <li class="links"><a href="#Video">Video</a></li>
+        <li class="links"><a href="#Cpu">CPU</a></li>
+        <li class="links"><a href="#Moterboard">Motherboard</a></li>
+        <li class="links"><a href="#Gpu">GPU</a></li>
+        <li class="links"><a href="#Ram">RAM</a></li>
+        <li class="links"><a href="#SSD">SSD</a></li>
+        <li class="links"><a href="#Cases">Cases</a></li>
+        <li class="links"><a href="#Psu">PSU</a></li>
+        <li class="links"><a href="#Cpu-cooler">CPU Cooler</a></li>
+        <li class="links"><a href="#Pc">PC Ideas</a></li>
+    </ul>
+
+    <section id="Welcome">
+        <a class="home-button" href="#Welcome">Home</a>
+        <img src="https://www.cclonline.com/content/blog/2021/1940/Lian-Li-O11D-Mini-S-Snow-Edition-Mid-Tower-case-fully-installed-PC-build.jpg?width=1250" alt="A PC">
+        <h1>Welcome to <span id="name">TechNerd World PC</span></h1>
+    </section>
+
+    <section id="Video">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>How to Build a PC</h1>
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/Mho0M1Ns0Rw" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="Cpu">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>CPU</h1>
+        <h2>The CPU is crucial for how fast your PC will run.</h2>
+        <h3>Recommended CPUs:</h3>
+
+        <div class="item">
+            <h3>AMD Ryzen 5 5600X</h3>
+            <h4>Price: $200</h4>
+        </div>
+
+        <div class="item">
+            <h3>Intel Core i5-12400</h3>
+            <h4>Price: $180</h4>
+        </div>
+
+        <img src="https://pcinternational.co.za/wp-content/uploads/2024/03/Top-Picks-Best-CPU-for-Gaming-in-2024-scaled.jpg" alt="A CPU image">
+    </section>
+
+    <section id="Moterboard">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>Motherboard</h1>
+        <h2>The motherboard is where all the components connect.</h2>
+        <h3>Use PC Part Picker to ensure compatibility with your parts.</h3>
+    </section>
+
+    <section id="Gpu">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>GPU / Graphics Card</h1>
+        <h2>The GPU is responsible for the graphics performance in your PC.</h2>
+        <h3>Recommended GPUs:</h3>
+
+        <div class="item">
+            <h3>NVIDIA GTX 1660 Super</h3>
+            <h4>Price: $230</h4>
+        </div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzWx78YI5wOjqDFI5IKkF7RJVdGxHWk0k4APhIjxrBhbazwie4QeOb85KcUpolzswW3Y&usqp=CAU" alt="A GPU">
+    </section>
+
+    <section id="Ram">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>RAM / Memory</h1>
+        <h2>RAM controls current tasks like the number of tabs you can have open.</h2>
+        <h3>Recommended RAM:</h3>
+
+        <div class="item">
+            <h3>Corsair Vengeance LPX 16GB</h3>
+            <h4>Price: $70</h4>
+        </div>
+
+        <img src="https://i.pcmag.com/imagery/articles/03l46rj3swSQajeqoWX4bCb-5..v1620258656.jpg" alt="RAM sticks">
+    </section>
+
+    <section id="SSD">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>SSD / Storage</h1>
+        <h2>The SSD is responsible for permanent storage.</h2>
+        <h3>Recommended SSDs:</h3>
+
+        <div class="item">
+            <h3>Samsung 970 EVO Plus 1TB NVMe</h3>
+            <h4>Price: $90</h4>
+        </div>
+
+        <img src="https://www.securedatarecovery.com/Media/blog/2024/hard-drive-buyer-guide.webp" alt="SSD image">
+    </section>
+
+    <section id="Cases">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>Cases</h1>
+        <h2>Your case is the outer shell of your PC.</h2>
+        <h3>Recommended cases:</h3>
+
+        <div class="item">
+            <h3>NZXT H510</h3>
+            <h4>Price: $80</h4>
+        </div>
+
+        <img src="https://m.media-amazon.com/images/I/81KhtncsNAL._AC_UF894,1000_QL80_.jpg" alt="PC case image">
+    </section>
+
+    <section id="Psu">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>Power Supply Unit (PSU)</h1>
+        <h2>The PSU provides power to all the components.</h2>
+        <h3>Recommended PSUs:</h3>
+
+        <div class="item">
+            <h3>EVGA 600 W1</h3>
+            <h4>Price: $50</h4>
+        </div>
+
+        <img src="https://i.extremetech.com/imagery/content-types/060mnov7NAgRGvHd1hWNhn5/images-2.png" alt="PSU image">
+    </section>
+
+    <section id="Cpu-cooler">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>CPU Coolers</h1>
+        <h2>Keep your CPU cool to prevent overheating.</h2>
+        <h3>Recommended coolers:</h3>
+
+        <div class="item">
+            <h3>Cooler Master Hyper 212</h3>
+            <h4>Price: $35</h4>
+        </div>
+
+        <img src="https://www.jaycar.com.au/medias/sys_master/images/images/h53/hf6/8843097493038/BC5303-SW1012-Main.jpg" alt="CPU cooler image">
+    </section>
+
+    <section id="Pc">
+        <a class="home-button" href="#Welcome">Home</a>
+        <h1>PC Ideas</h1>
+        <h2>Check out these unique builds</h2>
+        <div class="container">
+            <div class="col_mg">
+                <h3>Entry Level Gaming PC</h3>
+                <h4>AMD Ryzen 5 5600X, GTX 1660 Super, 16GB RAM, 1TB SSD</h4>
+            </div>
+            <div class="col_mg">
+                <h3>Mid-Range Gaming PC</h3>
+                <h4>Intel i5-12400, RTX 3060, 16GB RAM, 1TB SSD</h4>
+            </div>
+            <div class="col_mg">
+                <h3>High-End Gaming PC</h3>
+                <h4>AMD Ryzen 7 5800X, RTX 3080, 32GB RAM, 2TB SSD</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechNerd World. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
